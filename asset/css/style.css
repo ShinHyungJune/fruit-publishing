@@ -46,7 +46,7 @@
 .topBanner button i { font-size: 15px; color: #fff; }
 
 /* 하단 bottomNav */
-.bottomNav-type1 { display: block; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; background-color: #fff; z-index: 99; }
+.bottomNav-type1 { display: block; position: fixed; bottom: 0; left: calc(100vw / 2); transform: translateX(-50%); width: 100%; max-width: 475px; background-color: #fff; z-index: 99; }
 .bottomNav-type1 > ul { display: flex; gap: 9px; }
 .bottomNav-type1 > ul > li { width: calc(100%); }
 .bottomNav-type1 > ul > li .bottomNav-item { display: block; width: 100%;  }
@@ -125,7 +125,7 @@
 
 
 /* 스와이퍼 타입1 */
-.swiper-type1 { display: flex; padding-top: 22px; width: 100%; margin-bottom: 70px; }
+.swiper-type1 { display: flex; padding-top: 22px; width: 100%; margin-bottom: 70px; overflow: hidden; }
 .swiper-type1 .swiper { width: 100%; padding: 0 20px; }
 .swiper-type1 .swiper .swiper-slide { position: relative; transform: scale(0.95); transition: transform 0.3s ease; }
 .swiper-type1 .swiper .swiper-slide.swiper-slide-active { transform: scale(1); }
@@ -139,13 +139,13 @@
 .swiper-type1 .swiper .swiper-slide .content-box .txt-wrap .txt-bt::before { content: ''; position: absolute; left: 50%; top: 0; transform: translate(-50%, -50%); width: 260px; height: 1px; background-color: #FFFFFF; }
 
 /* 스와이퍼 타입2 */
-.swiper-type2 { padding: 0 20px; }
+.swiper-type2 { padding: 0 20px; overflow: hidden; }
 
 /* 스와이퍼 타입3 */
-.swiper-type3 { padding: 0 20px; }
+.swiper-type3 { padding: 0 20px; overflow: hidden; }
 
 /* 스와이퍼 타입4 */
-.swiper-type4 { padding: 0 20px; }
+.swiper-type4 { padding: 0 20px; overflow: hidden; }
 
 
 /* 섹션별 타이틀 */
