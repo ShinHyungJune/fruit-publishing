@@ -2,12 +2,12 @@ let target;
 
 $(document).ready(function () {
     //헤더 푸터 컴포넌트
-    $("#header").load("/asset/components/header.html");
-    $("#header2").load("/asset/components/header2.html");
+    $("#header").load("./asset/components/header.html");
+    $("#header2").load("./asset/components/header2.html");
     // 영어버전 해드 푸터
-    $("#footer").load("/asset/components/footer.html");
+    $("#footer").load("./asset/components/footer.html");
     // 하단 bottomNav
-    $("#bottomNav").load("/asset/components/bottomNav.html");
+    $("#bottomNav").load("./asset/components/bottomNav.html");
 
 });
 

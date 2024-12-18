@@ -266,7 +266,7 @@
 
 /* 후기 */
 .main-review-title-wrap { padding: 0 20px; }
-.main-review-title-wrap > p { width: 100%; display: flex; padding: 35px; color: #fff; border-radius: 10px; font-size: 25px; font-weight: bold; margin-bottom: 20px; background-image: url("/asset/images/main-review-title-wrap-bg-img.png"); background-position: center; background-size: cover; }
+.main-review-title-wrap > p { width: 100%; display: flex; padding: 35px; color: #fff; border-radius: 10px; font-size: 25px; font-weight: bold; margin-bottom: 20px; background-image: url("./asset/images/main-review-title-wrap-bg-img.png"); background-position: center; background-size: cover; }
 
 /* 후기 타입1 */
 .review-list-type1 { display: block; padding: 0 20px; }
